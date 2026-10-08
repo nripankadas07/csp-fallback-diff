@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csp-fallback-diff"
+version = "0.1.0"
+description = "Compare ordered independently enforced policy lists with effective directive fallback origins, first-duplicate handling and added/removed source tokens."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+csp-fallback-diff = "csp_fallback_diff:main"
+
+[project.urls]
+Repository = "https://github.com/nripankadas07/csp-fallback-diff"
+Issues = "https://github.com/nripankadas07/csp-fallback-diff/issues"
+
+[tool.setuptools]
+py-modules = ["csp_fallback_diff"]

@@ -1,0 +1,14 @@
+{
+  "before": [
+    "default-src 'self';script-src 'self'"
+  ],
+  "after": [
+    "default-src 'none';script-src 'self'"
+  ],
+  "directives": [
+    "img-src",
+    "script-src-elem",
+    "worker-src",
+    "frame-ancestors"
+  ]
+}

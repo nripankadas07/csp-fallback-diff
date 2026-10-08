@@ -1,0 +1,11 @@
+{
+  "before": [
+    "default-src 'self'"
+  ],
+  "after": [
+    "default-src 'self'"
+  ],
+  "directives": [
+    "img-src"
+  ]
+}
